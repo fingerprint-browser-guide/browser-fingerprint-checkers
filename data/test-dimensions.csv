@@ -1,0 +1,8 @@
+dimension,examples,what_it_can_show,what_it_cannot_prove,representative_tools
+network_leaks,"IPv4; IPv6; DNS; WebRTC; ASN; proxy/VPN","Visible network paths location mismatches and possible leaks","Anonymity or a safe browser fingerprint","BrowserLeaks; BrowserScan; Pixelscan; IPhey"
+protocol_fingerprints,"HTTP headers; Client Hints; HTTP/2 settings; TLS ClientHello; JA3; JA4","How the network client appears to the server","Good or bad identity from a hash alone","BrowserLeaks; BrowserScan"
+environment_attributes,"User-Agent; OS; language; timezone; screen; CPU; memory; plugins","Browser and device claims plus obvious contradictions","That the environment belongs to a specific person","All eight tools in different scopes"
+rendering_apis,"Canvas; WebGL; WebGPU; AudioContext; fonts; DOMRect","Rendering output and its repeatability or rarity in a dataset","Identity uniqueness across the whole internet","BrowserLeaks; CreepJS; Cover Your Tracks; AmIUnique; FingerprintJS"
+consistency_automation,"prototype lies; WebDriver; CDP; Navigator; headless signals","Possible tampering automation or mismatched API behavior","Fraud or guaranteed blocking by another website","CreepJS; BrowserScan; Pixelscan; IPhey"
+uniqueness_stability,"similarity ratio; entropy bits; visitor ID; confidence; timeline","Relative rarity or change under a specific method and dataset","Universal anonymity trust or cross-tool score equivalence","Cover Your Tracks; AmIUnique; FingerprintJS"
+
