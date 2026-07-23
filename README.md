@@ -4,7 +4,7 @@
 
 因此，**一个工具显示“正常”“唯一”或 100%，既不能证明浏览器匿名，也不能证明它能通过其他网站的风控。** 正确做法是先明确测试目标，再看原始字段、重复测试和工具的方法透明度。
 
-![2026浏览器指纹检测工具指南，比较网络泄漏、渲染指纹、环境一致性、唯一性和自动化信号](assets/browser-fingerprint-checkers-cover.png)
+![2026浏览器指纹检测工具指南，比较网络泄漏、渲染指纹、环境一致性、唯一性和自动化信号](assets/browser-fingerprint-checkers-cover-v3.png)
 
 *图 1：2026 浏览器指纹检测工具指南。8 个工具覆盖的目标不同，分数不能直接横向换算。*
 
@@ -36,7 +36,7 @@
 
 证据等级定义和逐字段数据见 [`METHODOLOGY.md`](METHODOLOGY.md)、[`data/tools.csv`](data/tools.csv) 与 [`data/test-dimensions.csv`](data/test-dimensions.csv)。
 
-![浏览器指纹检测的六个层次，从IP与DNS、HTTP与TLS、环境参数、渲染API、一致性与自动化到唯一性与稳定性](assets/browser-fingerprint-test-layers.png)
+![浏览器指纹检测的六个层次，从IP与DNS、HTTP与TLS、环境参数、渲染API、一致性与自动化到唯一性与稳定性](assets/browser-fingerprint-test-layers-v3.png)
 
 *图 2：浏览器指纹检测至少包含六个层次。没有一个汇总分能完整替代这些原始信号。*
 
@@ -126,7 +126,7 @@ IPhey 官网列出指纹、IP、VPN/代理、Bot、DNS 泄漏和 IP 黑名单检
 
 它可以作为第二或第三个汇总面板，但官网没有充分公开 Trust Score 的特征权重、训练或验证数据、误报率。首版核查也未定位到与检测页直接对应的完整隐私说明，因此敏感环境应谨慎运行，并把结果视为该站规则下的提示。
 
-![八个浏览器指纹检测工具按逐项诊断、篡改分析、唯一性研究、访客标识和综合面板分类](assets/browser-fingerprint-tool-map.png)
+![八个浏览器指纹检测工具按逐项诊断、篡改分析、唯一性研究、访客标识和综合面板分类](assets/browser-fingerprint-tool-map-v3.png)
 
 *图 3：按问题选择工具。分类不代表质量排名，同一工具可能覆盖多个维度。*
 
@@ -143,7 +143,7 @@ IPhey 官网列出指纹、IP、VPN/代理、Bot、DNS 泄漏和 IP 黑名单检
 | 100% / Trust Score 高 | 在该站未公开或有限公开的规则中得分较高 | “全网通过率”是 100%；环境长期不会变化 |
 | FingerprintJS confidence 高 | 该库对自己生成的 visitor ID 更有信心 | 浏览器隐私更好；业务网站更信任该访问者 |
 
-![浏览器指纹检测结果的证据边界，区分能够观察到的信号和不能推出的结论](assets/browser-fingerprint-result-boundaries.png)
+![浏览器指纹检测结果的证据边界，区分能够观察到的信号和不能推出的结论](assets/browser-fingerprint-result-boundaries-v3.png)
 
 *图 4：检测器提供的是局部观测。一次绿灯不能推出匿名、全网通过或账号长期安全。*
 
@@ -239,4 +239,3 @@ IPhey 官网列出指纹、IP、VPN/代理、Bot、DNS 泄漏和 IP 黑名单检
 发现工具功能变化、失效链接或事实错误时，欢迎提交带有官方 URL、页面标题和访问日期的 issue。请勿在 issue 中提交真实 IP、cookie、账号信息或可识别个人的完整检测截图。
 
 本项目面向隐私研究、浏览器兼容性、授权安全测试、反欺诈防御、QA 和合法的多环境管理，不提供规避身份验证、欺诈、垃圾信息、撞库、账号交易或绕过平台规则的操作指导。
-
