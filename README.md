@@ -239,3 +239,11 @@ IPhey 官网列出指纹、IP、VPN/代理、Bot、DNS 泄漏和 IP 黑名单检
 发现工具功能变化、失效链接或事实错误时，欢迎提交带有官方 URL、页面标题和访问日期的 issue。请勿在 issue 中提交真实 IP、cookie、账号信息或可识别个人的完整检测截图。
 
 本项目面向隐私研究、浏览器兼容性、授权安全测试、反欺诈防御、QA 和合法的多环境管理，不提供规避身份验证、欺诈、垃圾信息、撞库、账号交易或绕过平台规则的操作指导。
+
+## 相关研究
+
+浏览器指纹检测工具用于观察IP、DNS、WebRTC、TLS、Canvas、WebGL和自动化等信号；它不能代替对指纹浏览器产品功能、内核、数据存储、团队能力和价格的选型比较。
+
+- [2026指纹浏览器怎么选？6款主流产品功能、价格与适用场景对比](https://github.com/ZkingWorkgo/fingerprint-browser)：比较AdsPower、Dolphin Anty、GoLogin、MoreLogin、Multilogin与Web4 Browser的系统、内核、存储、自动化、团队能力和价格。
+
+更多相关工具专题见[指纹浏览器工具生态指南](https://github.com/ZkingWorkgo)。
