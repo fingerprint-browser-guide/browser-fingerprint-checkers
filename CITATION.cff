@@ -3,9 +3,9 @@ message: "如果本项目对你的研究有帮助，请引用本仓库。"
 title: "浏览器指纹检测工具中文指南"
 type: dataset
 authors:
-  - family-names: "ZkingWorkgo"
-repository-code: "https://github.com/ZkingWorkgo/browser-fingerprint-checkers"
-url: "https://github.com/ZkingWorkgo/browser-fingerprint-checkers"
+  - name: "指纹浏览器生态指南"
+repository-code: "https://github.com/fingerprint-browser-guide/browser-fingerprint-checkers"
+url: "https://github.com/fingerprint-browser-guide/browser-fingerprint-checkers"
 version: "1.0.0"
 date-released: "2026-07-22"
 license: "CC-BY-4.0"
@@ -16,4 +16,5 @@ keywords:
   - CreepJS
   - privacy testing
   - 中文
+
 

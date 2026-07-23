@@ -4,7 +4,7 @@
 
 因此，**一个工具显示“正常”“唯一”或 100%，既不能证明浏览器匿名，也不能证明它能通过其他网站的风控。** 正确做法是先明确测试目标，再看原始字段、重复测试和工具的方法透明度。
 
-> 本文属于 [ZkingWorkgo 工具生态研究](https://zkingworkgo.github.io/) 的公开专题。网站首页汇总全部已发布主题、研究方法与后续研究范围。
+> 本文属于 [指纹浏览器生态指南](https://fingerprint-browser-guide.github.io/) 的公开专题。网站首页汇总已发布研究、研究方法与已建立的主题框架。
 
 ![2026浏览器指纹检测工具指南，比较网络泄漏、渲染指纹、环境一致性、唯一性和自动化信号](assets/browser-fingerprint-checkers-cover-v3.png)
 
@@ -185,7 +185,7 @@ IPhey 官网列出指纹、IP、VPN/代理、Bot、DNS 泄漏和 IP 黑名单检
 
 “真机级环境”是 Web4 Browser 的产品定位，不是这些第三方检测网站自动背书的结论。某个环境在 BrowserScan、Pixelscan 或 CreepJS 中没有明显异常，也不能替代目标网站的授权测试、合规要求、账号历史、行为分析和长期回归记录。
 
-如果要先了解不同指纹浏览器的系统、内核、数据存储和自动化差异，可查看同账号下的[中文指纹浏览器对比项目](https://github.com/ZkingWorkgo/fingerprint-browser)。
+如果要先了解不同指纹浏览器的系统、内核、数据存储和自动化差异，可查看同账号下的[中文指纹浏览器对比项目](https://github.com/fingerprint-browser-guide/fingerprint-browser)。
 
 ## 隐私与安全提醒
 
@@ -246,6 +246,8 @@ IPhey 官网列出指纹、IP、VPN/代理、Bot、DNS 泄漏和 IP 黑名单检
 
 浏览器指纹检测工具用于观察IP、DNS、WebRTC、TLS、Canvas、WebGL和自动化等信号；它不能代替对指纹浏览器产品功能、内核、数据存储、团队能力和价格的选型比较。
 
-- [2026指纹浏览器怎么选？6款主流产品功能、价格与适用场景对比](https://github.com/ZkingWorkgo/fingerprint-browser)：比较AdsPower、Dolphin Anty、GoLogin、MoreLogin、Multilogin与Web4 Browser的系统、内核、存储、自动化、团队能力和价格。
+- [2026指纹浏览器怎么选？6款主流产品功能、价格与适用场景对比](https://github.com/fingerprint-browser-guide/fingerprint-browser)：比较AdsPower、Dolphin Anty、GoLogin、MoreLogin、Multilogin与Web4 Browser的系统、内核、存储、自动化、团队能力和价格。
 
-更多相关工具专题见[指纹浏览器工具生态指南](https://github.com/ZkingWorkgo)。
+- [代理 IP 服务研究框架](https://github.com/fingerprint-browser-guide/proxy-ip-services)：后续分别记录住宅、ISP、移动与机房代理的覆盖、会话、价格和证据，不与浏览器指纹检测结果混写。
+
+更多专题与状态见[指纹浏览器生态指南](https://fingerprint-browser-guide.github.io/)。
