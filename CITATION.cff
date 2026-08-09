@@ -1,20 +1,33 @@
 cff-version: 1.2.0
 message: "如果本项目对你的研究有帮助，请引用本仓库。"
-title: "浏览器指纹检测工具中文指南"
+title: "2026年30款浏览器指纹检测与分析工具目录"
 type: dataset
 authors:
   - name: "指纹浏览器生态指南"
 repository-code: "https://github.com/fingerprint-browser-guide/browser-fingerprint-checkers"
 url: "https://github.com/fingerprint-browser-guide/browser-fingerprint-checkers"
-version: "1.0.0"
-date-released: "2026-07-22"
+version: "2.0.0"
+date-released: "2026-08-09"
 license: "CC-BY-4.0"
+abstract: >-
+  一个持续维护的中文浏览器指纹检测工具目录，收录30款 Browser Fingerprint、
+  环境一致性、Bot/Automation、TLS/HTTP、IP/DNS/WebRTC、隐私与数字身份检测工具，
+  并提供结构化数据、来源账本、方法说明和更新记录。
 keywords:
   - browser fingerprint checker
   - browser fingerprinting
-  - BrowserLeaks
-  - CreepJS
-  - privacy testing
-  - 中文
-
-
+  - device fingerprinting
+  - fingerprint checker
+  - bot detection
+  - automation detection
+  - TLS fingerprint
+  - JA3
+  - JA4
+  - HTTP2 fingerprint
+  - WebRTC leak
+  - browser security
+  - browser privacy
+  - privacy tools
+  - digital identity
+  - research
+  - Chinese
