@@ -1,4 +1,4 @@
-# 2026年30款浏览器指纹检测与分析工具汇总（最新整理）｜定期更新
+# Browser Fingerprint Checkers — 2026
 
 A maintained directory of **30 browser fingerprint, environment consistency, network, automation, privacy and digital-identity analysis tools**.
 
@@ -7,9 +7,21 @@ A maintained directory of **30 browser fingerprint, environment consistency, net
 
 ![2026年30款浏览器指纹检测与分析工具汇总封面](assets/browser-fingerprint-checkers-2026-cover.png)
 
-## Quick comparison
+## 浏览器指纹检测工具是什么
 
-详细字段放在 [`data/tools.csv`](data/tools.csv)，README 只保留最有用的快速导航信息。
+浏览器在访问网站时，会暴露大量与设备、系统、浏览器和网络环境有关的信息，例如 User-Agent、操作系统、屏幕分辨率、语言、时区、字体、Canvas、WebGL、WebGPU、AudioContext、WebRTC、Client Hints，以及 IP、DNS、TLS 和 HTTP 等网络与协议特征。网站可以将这些信号单独或组合起来形成浏览器指纹，并用于设备识别、访问分析、反欺诈、Bot 检测、风险控制和用户追踪。
+
+浏览器指纹检测与分析工具可以帮助用户查看当前浏览器究竟暴露了哪些信息，并进一步判断浏览器、操作系统、硬件、网络和地理位置之间是否存在异常或不一致。有些工具专门分析 Canvas、WebGL、Fonts 等浏览器指纹，有些工具则进一步检测 WebRTC、DNS、Proxy、VPN、TLS、JA3/JA4、HTTP/2、自动化特征、Bot 风险、环境一致性或浏览器指纹唯一性。
+
+本仓库整理了 30 款浏览器指纹、网络环境和数字身份检测工具。除了 BrowserLeaks、Pixelscan、BrowserScan、CreepJS、TraceScope 等浏览器环境分析网站，还包括 TLS/HTTP 指纹、Bot Detection、IP Reputation、Visitor Identification、浏览器隐私防护和数字身份暴露等不同方向。
+
+这些工具可用于浏览器隐私检查、浏览器环境测试、Proxy/VPN 网络检查、WebRTC 和 DNS 泄漏排查、自动化浏览器调试、浏览器环境一致性验证，以及浏览器指纹和设备识别技术研究。不同工具关注的检测层并不相同，因此本仓库不做“最好/最强”排名，而是重点维护每款工具的检测方向、独特点、当前状态、来源和更新时间。
+
+## 30款浏览器指纹检测与分析工具快速对比
+
+这 30 款工具并不是功能完全相同的 Browser Fingerprint Checker。有些更适合快速判断完整浏览器环境，有些专门查看 Canvas、WebGL、TLS 等底层信号，还有一些重点检测 Bot、自动化、网络泄漏、浏览器隐私防护或数字身份暴露。
+
+如果只是想快速找到适合自己的工具，可以先通过下面的表格了解每款工具主要解决什么问题，再进入后面的分类目录查看简要说明。更详细的结构化字段保存在 [`data/tools.csv`](data/tools.csv)。
 
 | Tool | Category | Best for | Status |
 |---|---|---|---|

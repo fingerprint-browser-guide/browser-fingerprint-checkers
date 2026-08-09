@@ -21,3 +21,7 @@
 - 30 款工具按 6 个功能类别分组。
 - Quick comparison 缩减为 Tool / Category / Best for / Status 四列。
 - Web4 Browser 原文只在顶部和底部各出现一次。
+
+## V5 Intro refinement
+
+- 在 README 顶部增加浏览器指纹与检测工具的背景介绍，并增强 Quick comparison 前的阅读引导。
