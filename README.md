@@ -1,4 +1,4 @@
-# Browser Fingerprint Checkers — 2026
+# 2026年30款浏览器指纹检测与分析工具汇总（最新整理）｜定期更新
 
 A maintained directory of **30 browser fingerprint, environment consistency, network, automation, privacy and digital-identity analysis tools**.
 
