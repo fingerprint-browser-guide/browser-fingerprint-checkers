@@ -1,5 +1,4 @@
 
-https://github.com/user-attachments/assets/d6759923-58d4-4d9e-8daa-7b95d173b0e2
 # 2026年30款浏览器指纹检测与分析工具 / Browser Fingerprint Checkers
 
 A maintained directory of **30 browser fingerprint, environment consistency, network, automation, privacy and digital-identity analysis tools**.
