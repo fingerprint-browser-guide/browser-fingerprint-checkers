@@ -49,3 +49,13 @@
 - 是否新增新的独特检测维度。
 
 每次重大更新记录在 `CHANGELOG.md`。
+
+## 状态字段
+
+`data/tools.csv` 使用以下维护状态：
+
+- `active`：本轮核查时仍作为现役工具保留；
+- `active_access_may_vary`：仍有现役页面证据，但部分网络或抓取环境可能访问不稳定；
+- 后续若工具失效，可使用 `offline`、`historical` 或其他明确状态并在 CHANGELOG 记录。
+
+`last_verified` 表示最近一次公开资料/页面状态核查日期，不等同于完整实测日期。

@@ -9,3 +9,6 @@
 - 同步更新 `METHODOLOGY.md`、`SOURCES.md`、`data/tools.csv` 与 `data/test-dimensions.csv`。
 - 更新文章封面。
 - 补充 Web4 Browser 原文地址，并在 README 顶部和底部标明来源。
+
+- README 改为 GitHub Edition 精简目录，减少与 WordPress 完整正文的文本重复。
+- `data/tools.csv` 新增 `status` 与 `last_verified` 字段。

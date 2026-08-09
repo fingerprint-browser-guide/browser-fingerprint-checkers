@@ -1,31 +1,31 @@
-tool,official_url,category,primary_direction,result_form,unique_angle,best_for,tested,checked_on
-BrowserScan,https://www.browserscan.net/,综合环境检测,浏览器、硬件、IP、DNS、WebRTC、TLS,判断 + 原始数据,环境一致性 + JA3/JA4/HTTP2,快速检查完整浏览器环境,false,2026-08-09
-Pixelscan,https://pixelscan.net/,综合环境检测,Fingerprint、IP、Proxy、VPN、DNS、Bot,综合判断,多维环境检测 + Android Checker,判断环境是否存在明显异常,false,2026-08-09
-Iphey,https://iphey.com/,环境可信度检测,Fingerprint、IP、VPN、Bot、DNS,Trust Score,强调不同信号之间的一致性,快速判断环境可信度,false,2026-08-09
-Fingerprint-Scan,https://fingerprint-scan.com/,Fingerprint/Bot,浏览器指纹、IP Reputation、Proxy,Bot Risk Score,将指纹异常直接用于 Bot 风险判断,检查指纹是否具有自动化特征,false,2026-08-09
-Whoer,https://whoer.net/,匿名环境检测,IP、DNS、WebRTC、Proxy、Timezone、UA,匿名度/异常判断,将多种环境不一致直接转化为风险项,VPN/Proxy 环境检查,false,2026-08-09
-DeviceInfo.me,https://www.deviceinfo.me/,设备信息分析,浏览器、OS、硬件、GPU、Fonts、TLS,原始数据 + 部分判断,True Browser/OS 与 Fingerprinting Resistance,深入查看设备暴露信息,false,2026-08-09
-BrowserLeaks,https://browserleaks.com/,深度技术检测,Canvas、WebGL、WebGPU、TLS、HTTP、TCP,原始数据,JA4T、HTTP/2、QUIC/HTTP3 等协议层检测,深入分析具体指纹参数,false,2026-08-09
-CreepJS,https://abrahamjuliot.github.io/creepjs/,高级指纹分析,Browser API、Worker、Canvas、WebGL、Audio,异常分析,Lies、Resistance、Headless、Stealth,检查指纹伪装和异常,false,2026-08-09
-Device & Browser Info,https://deviceandbrowserinfo.com/are_you_a_bot,Fingerprint/Bot,WebDriver、CDP、Headers、WebGL、Behavior,Bot/异常判断,同时检查静态指纹和用户行为,自动化浏览器调试,false,2026-08-09
-WebBrowserTools,https://webbrowsertools.com/,指纹修改检测,Canvas、WebGL、WebGPU、ClientRects,Spoof 判断,Fixed/Random Noise Detection,检查指纹是否被修改,false,2026-08-09
-Browserize / PrivacyCheck,https://privacycheck.sec.lrz.de/,指纹研究,Active/Passive Fingerprinting,原始实验数据,ETag、JSEcho、Header Signature、HTTP2,研究高级指纹技术,false,2026-08-09
-AmIUnique,https://amiunique.org/,指纹唯一性,Browser Fingerprint,唯一性/统计,Global Statistics + Fingerprint History,判断指纹是否罕见,false,2026-08-09
-EFF Cover Your Tracks,https://coveryourtracks.eff.org/,隐私/追踪检测,Tracking、Fingerprintability,隐私判断,同时分析 Tracker Protection,判断浏览器被追踪难度,false,2026-08-09
-FingerprintJS OSS Demo,https://fingerprintjs.github.io/fingerprintjs/,Visitor Identification,客户端 Browser Signals,Visitor ID,可实际部署的开源指纹算法,理解网站如何生成 Visitor ID,false,2026-08-09
-Fingerprint Pro Playground,https://demo.fingerprint.com/playground,Device Intelligence,浏览器、网络、设备、Smart Signals,Visitor ID + 风险信号,客户端 + 服务端持续设备识别,研究商业设备识别,false,2026-08-09
-Incolumitas Bot Detector,https://bot.incolumitas.com/,Bot Detection,Browser、TCP/IP、TLS、Behavior,Behavioral Score,行为分类 + 多层指纹,综合 Bot/自动化检测,false,2026-08-09
-Rebrowser Bot Detector,https://bot-detector.rebrowser.net/,Automation Detection,Chromium、CDP、Puppeteer、Playwright,异常判断,专攻现代 CDP/Automation Leak,调试 Playwright/Puppeteer,false,2026-08-09
-Sannysoft,https://bot.sannysoft.com/,经典 Bot Benchmark,WebDriver、Headless、Plugins、WebGL,Pass/Fail,行业常用经典自动化基准,基础 Automation 检查,false,2026-08-09
-AntCpt reCAPTCHA v3 Score,https://antcpt.com/eng/information/demo-form/recaptcha-3-test-score.html,外部风控检测,reCAPTCHA v3,0.1–0.9 Score,直接观察 Google 风控评分,判断当前访问的人机风险,false,2026-08-09
-TLS.Peet.ws / TrackMe,https://tls.peet.ws/,协议指纹,TLS、HTTP/2、JA3、JA4,原始协议数据,JA3 + JA4 + Akamai + PeetPrint,检查 TLS/HTTP 客户端身份,false,2026-08-09
-IPLeak,https://ipleak.net/,网络泄漏检测,IP、DNS、WebRTC、Torrent,原始数据,Torrent Client IP + 端口路由测试,VPN/Proxy 泄漏排查,false,2026-08-09
-IPQualityScore,https://www.ipqualityscore.com/ip-reputation-check,IP Reputation,Proxy、VPN、Tor、Fraud、Abuse,Fraud Score,自有网络信誉和欺诈数据,判断 IP 风险质量,false,2026-08-09
-LeaksCheck,https://leakscheck.com/,数字身份暴露,Credential、Infostealer、OSINT,查询结果,浏览器之外的身份关联和数字足迹,检查历史身份暴露,false,2026-08-09
-Webkay,https://webkay.robinlinus.com/,浏览器信息暴露,Browser、Hardware、WebRTC、Autofill,可视化演示,Autofill、登录状态、局域网等攻击面,理解网站能知道什么,false,2026-08-09
-PrivacyTests.org,https://privacytests.org/,浏览器隐私比较,浏览器默认隐私防护,Pass/Fail,统一方法横向比较不同浏览器,比较浏览器抗追踪能力,false,2026-08-09
-BrowserAudit,https://browseraudit.com/,浏览器安全检测,SOP、CSP、CORS、Cookies 等,400+测试结果,检查浏览器安全标准实现,浏览器安全能力分析,false,2026-08-09
-Ethical Red,https://www.ethicalred.io/,网络路径检测,WebRTC、STUN、DNS、IPv6、VPN,泄漏/路径判断,STUN + VPN Tunnel Integrity,检查 VPN 是否真正完整接管流量,false,2026-08-09
-PrivacyTestLab,https://privacytestlab.com/,Fingerprint/隐私,Fingerprint、IP、DNS、WebRTC,Fingerprint Score,公开 Shannon Entropy 与 Signal Weight,理解评分和指纹唯一性,false,2026-08-09
-Privacy.net Analyzer,https://privacy.net/analyzer/,身份信息暴露,Fingerprint、Autofill、登录状态,测试结果,Autofill Leak + User Account Tests,检查浏览器身份泄漏,false,2026-08-09
-TraceScope,https://tracescope.org/,指纹一致性/环境诊断,Fingerprint、IP、WebRTC、DNS、Automation,一致性评分 + 证据报告,修改痕迹、Server/JS 交叉验证、品牌痕迹,检查浏览器环境是否存在伪装或异常,false,2026-08-09
+tool,official_url,category,primary_direction,result_form,unique_angle,best_for,status,last_verified,tested
+BrowserScan,https://www.browserscan.net/,综合环境检测,浏览器、硬件、IP、DNS、WebRTC、TLS,判断 + 原始数据,环境一致性 + JA3/JA4/HTTP2,快速检查完整浏览器环境,active,2026-08-09,false
+Pixelscan,https://pixelscan.net/,综合环境检测,Fingerprint、IP、Proxy、VPN、DNS、Bot,综合判断,多维环境检测 + Android Checker,判断环境是否存在明显异常,active,2026-08-09,false
+Iphey,https://iphey.com/,环境可信度检测,Fingerprint、IP、VPN、Bot、DNS,Trust Score,强调不同信号之间的一致性,快速判断环境可信度,active,2026-08-09,false
+Fingerprint-Scan,https://fingerprint-scan.com/,Fingerprint/Bot,浏览器指纹、IP Reputation、Proxy,Bot Risk Score,将指纹异常直接用于 Bot 风险判断,检查指纹是否具有自动化特征,active,2026-08-09,false
+Whoer,https://whoer.net/,匿名环境检测,IP、DNS、WebRTC、Proxy、Timezone、UA,匿名度/异常判断,将多种环境不一致直接转化为风险项,VPN/Proxy 环境检查,active,2026-08-09,false
+DeviceInfo.me,https://www.deviceinfo.me/,设备信息分析,浏览器、OS、硬件、GPU、Fonts、TLS,原始数据 + 部分判断,True Browser/OS 与 Fingerprinting Resistance,深入查看设备暴露信息,active_access_may_vary,2026-08-09,false
+BrowserLeaks,https://browserleaks.com/,深度技术检测,Canvas、WebGL、WebGPU、TLS、HTTP、TCP,原始数据,JA4T、HTTP/2、QUIC/HTTP3 等协议层检测,深入分析具体指纹参数,active,2026-08-09,false
+CreepJS,https://abrahamjuliot.github.io/creepjs/,高级指纹分析,Browser API、Worker、Canvas、WebGL、Audio,异常分析,Lies、Resistance、Headless、Stealth,检查指纹伪装和异常,active,2026-08-09,false
+Device & Browser Info,https://deviceandbrowserinfo.com/are_you_a_bot,Fingerprint/Bot,WebDriver、CDP、Headers、WebGL、Behavior,Bot/异常判断,同时检查静态指纹和用户行为,自动化浏览器调试,active,2026-08-09,false
+WebBrowserTools,https://webbrowsertools.com/,指纹修改检测,Canvas、WebGL、WebGPU、ClientRects,Spoof 判断,Fixed/Random Noise Detection,检查指纹是否被修改,active,2026-08-09,false
+Browserize / PrivacyCheck,https://privacycheck.sec.lrz.de/,指纹研究,Active/Passive Fingerprinting,原始实验数据,ETag、JSEcho、Header Signature、HTTP2,研究高级指纹技术,active,2026-08-09,false
+AmIUnique,https://amiunique.org/,指纹唯一性,Browser Fingerprint,唯一性/统计,Global Statistics + Fingerprint History,判断指纹是否罕见,active,2026-08-09,false
+EFF Cover Your Tracks,https://coveryourtracks.eff.org/,隐私/追踪检测,Tracking、Fingerprintability,隐私判断,同时分析 Tracker Protection,判断浏览器被追踪难度,active,2026-08-09,false
+FingerprintJS OSS Demo,https://fingerprintjs.github.io/fingerprintjs/,Visitor Identification,客户端 Browser Signals,Visitor ID,可实际部署的开源指纹算法,理解网站如何生成 Visitor ID,active,2026-08-09,false
+Fingerprint Pro Playground,https://demo.fingerprint.com/playground,Device Intelligence,浏览器、网络、设备、Smart Signals,Visitor ID + 风险信号,客户端 + 服务端持续设备识别,研究商业设备识别,active,2026-08-09,false
+Incolumitas Bot Detector,https://bot.incolumitas.com/,Bot Detection,Browser、TCP/IP、TLS、Behavior,Behavioral Score,行为分类 + 多层指纹,综合 Bot/自动化检测,active,2026-08-09,false
+Rebrowser Bot Detector,https://bot-detector.rebrowser.net/,Automation Detection,Chromium、CDP、Puppeteer、Playwright,异常判断,专攻现代 CDP/Automation Leak,调试 Playwright/Puppeteer,active,2026-08-09,false
+Sannysoft,https://bot.sannysoft.com/,经典 Bot Benchmark,WebDriver、Headless、Plugins、WebGL,Pass/Fail,行业常用经典自动化基准,基础 Automation 检查,active,2026-08-09,false
+AntCpt reCAPTCHA v3 Score,https://antcpt.com/eng/information/demo-form/recaptcha-3-test-score.html,外部风控检测,reCAPTCHA v3,0.1–0.9 Score,直接观察 Google 风控评分,判断当前访问的人机风险,active,2026-08-09,false
+TLS.Peet.ws / TrackMe,https://tls.peet.ws/,协议指纹,TLS、HTTP/2、JA3、JA4,原始协议数据,JA3 + JA4 + Akamai + PeetPrint,检查 TLS/HTTP 客户端身份,active,2026-08-09,false
+IPLeak,https://ipleak.net/,网络泄漏检测,IP、DNS、WebRTC、Torrent,原始数据,Torrent Client IP + 端口路由测试,VPN/Proxy 泄漏排查,active,2026-08-09,false
+IPQualityScore,https://www.ipqualityscore.com/ip-reputation-check,IP Reputation,Proxy、VPN、Tor、Fraud、Abuse,Fraud Score,自有网络信誉和欺诈数据,判断 IP 风险质量,active,2026-08-09,false
+LeaksCheck,https://leakscheck.com/,数字身份暴露,Credential、Infostealer、OSINT,查询结果,浏览器之外的身份关联和数字足迹,检查历史身份暴露,active,2026-08-09,false
+Webkay,https://webkay.robinlinus.com/,浏览器信息暴露,Browser、Hardware、WebRTC、Autofill,可视化演示,Autofill、登录状态、局域网等攻击面,理解网站能知道什么,active,2026-08-09,false
+PrivacyTests.org,https://privacytests.org/,浏览器隐私比较,浏览器默认隐私防护,Pass/Fail,统一方法横向比较不同浏览器,比较浏览器抗追踪能力,active,2026-08-09,false
+BrowserAudit,https://browseraudit.com/,浏览器安全检测,SOP、CSP、CORS、Cookies 等,400+测试结果,检查浏览器安全标准实现,浏览器安全能力分析,active,2026-08-09,false
+Ethical Red,https://www.ethicalred.io/,网络路径检测,WebRTC、STUN、DNS、IPv6、VPN,泄漏/路径判断,STUN + VPN Tunnel Integrity,检查 VPN 是否真正完整接管流量,active,2026-08-09,false
+PrivacyTestLab,https://privacytestlab.com/,Fingerprint/隐私,Fingerprint、IP、DNS、WebRTC,Fingerprint Score,公开 Shannon Entropy 与 Signal Weight,理解评分和指纹唯一性,active,2026-08-09,false
+Privacy.net Analyzer,https://privacy.net/analyzer/,身份信息暴露,Fingerprint、Autofill、登录状态,测试结果,Autofill Leak + User Account Tests,检查浏览器身份泄漏,active,2026-08-09,false
+TraceScope,https://tracescope.org/,指纹一致性/环境诊断,Fingerprint、IP、WebRTC、DNS、Automation,一致性评分 + 证据报告,修改痕迹、Server/JS 交叉验证、品牌痕迹,检查浏览器环境是否存在伪装或异常,active,2026-08-09,false
