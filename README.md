@@ -1,3 +1,5 @@
+
+https://github.com/user-attachments/assets/d6759923-58d4-4d9e-8daa-7b95d173b0e2
 # 2026年30款浏览器指纹检测与分析工具 / Browser Fingerprint Checkers
 
 A maintained directory of **30 browser fingerprint, environment consistency, network, automation, privacy and digital-identity analysis tools**.
@@ -135,8 +137,7 @@ https://github.com/user-attachments/assets/3589c689-b678-4e15-8cda-5a0e257d1e1a
 
 **Highlights:** True Browser/OS 与 Fingerprinting Resistance  
 
-
-
+https://github.com/user-attachments/assets/bfd92fd9-daf7-4cd1-9d12-5d692522a112
 
 #### [WebBrowserTools](https://webbrowsertools.com/)
 
@@ -144,11 +145,16 @@ https://github.com/user-attachments/assets/3589c689-b678-4e15-8cda-5a0e257d1e1a
 
 **Highlights:** Fixed/Random Noise Detection  
 
+https://github.com/user-attachments/assets/96b237c4-7f44-4bb4-9b35-57ba134a38da
+
 #### [Browserize / PrivacyCheck](https://privacycheck.sec.lrz.de/)
 
 研究型 Fingerprinting 实验平台，覆盖 Active/Passive Fingerprinting，并包含 ETag、JSEcho、Header Signature 与 HTTP/2 等少见测试。
 
 **Highlights:** ETag、JSEcho、Header Signature、HTTP2  
+
+https://github.com/user-attachments/assets/1022f8a1-a310-46e3-b506-c6372409db4d
+
 
 ### 唯一性与设备识别
 
@@ -158,17 +164,23 @@ https://github.com/user-attachments/assets/3589c689-b678-4e15-8cda-5a0e257d1e1a
 
 **Highlights:** Global Statistics + Fingerprint History  
 
+https://github.com/user-attachments/assets/be151b44-7b72-4ce5-ad7d-1d61716dc4b7
+
 #### [EFF Cover Your Tracks](https://coveryourtracks.eff.org/)
 
 EFF 的隐私研究工具，用于观察 Tracker Protection 与 Fingerprintability，更偏向回答浏览器有多容易被跟踪。
 
 **Highlights:** 同时分析 Tracker Protection  
 
+https://github.com/user-attachments/assets/0b9410e3-762b-4ea0-89de-41437aa3ce06
+
 #### [FingerprintJS OSS Demo](https://fingerprintjs.github.io/fingerprintjs/)
 
 FingerprintJS 开源客户端指纹库的在线 Demo，用于观察浏览器属性如何被组合成 Visitor ID。
 
 **Highlights:** 可实际部署的开源指纹算法  
+
+https://github.com/user-attachments/assets/a2108806-f8dd-477b-911e-1ed528fcfb30
 
 #### [Fingerprint Pro Playground](https://demo.fingerprint.com/playground)
 
@@ -184,11 +196,15 @@ Fingerprint 商业 Device Intelligence 的演示环境，展示服务端 Visitor
 
 **Highlights:** 行为分类 + 多层指纹  
 
+https://github.com/user-attachments/assets/63463f8e-0fb9-4183-9d5c-aea95ae8b9de
+
 #### [Rebrowser Bot Detector](https://bot-detector.rebrowser.net/)
 
 面向现代 Chromium 自动化环境，专门检查 CDP、Puppeteer、Playwright 等框架可能留下的执行痕迹。
 
 **Highlights:** 专攻现代 CDP/Automation Leak  
+
+https://github.com/user-attachments/assets/d6b5684e-5946-460c-b033-948460690a1b
 
 #### [Sannysoft](https://bot.sannysoft.com/)
 
@@ -196,17 +212,23 @@ Fingerprint 商业 Device Intelligence 的演示环境，展示服务端 Visitor
 
 **Highlights:** 行业常用经典自动化基准  
 
+https://github.com/user-attachments/assets/70e72ae1-846d-4ab2-9a15-928c4350ebbe
+
 #### [Device & Browser Info](https://deviceandbrowserinfo.com/are_you_a_bot)
 
 把客户端指纹、HTTP Headers、WebDriver/CDP 异常和行为测试放在一起，适合研究自动化环境中的跨信号差异。
 
 **Highlights:** 同时检查静态指纹和用户行为  
 
+https://github.com/user-attachments/assets/aabaa326-745d-4344-8478-df631f22d3ad
+
 #### [AntCpt reCAPTCHA v3 Score](https://antcpt.com/eng/information/demo-form/recaptcha-3-test-score.html)
 
 通过真实 reCAPTCHA v3 Score 观察外部风控系统对当前访问的人机风险判断，而不是读取传统 Canvas/WebGL 指纹。
 
 **Highlights:** 直接观察 Google 风控评分  
+
+https://github.com/user-attachments/assets/847e80d6-be5b-4556-b3af-e21b01d48670
 
 ### TLS / 网络与 IP
 
@@ -216,11 +238,15 @@ Fingerprint 商业 Device Intelligence 的演示环境，展示服务端 Visitor
 
 **Highlights:** JA3 + JA4 + Akamai + PeetPrint  
 
+https://github.com/user-attachments/assets/3567919c-7207-4421-9975-b13323a2e9ed
+
 #### [IPLeak](https://ipleak.net/)
 
 面向 IP、DNS、WebRTC 与 VPN/Proxy 泄漏排查，并提供 Torrent Client IP 和不同端口网络路径测试。
 
 **Highlights:** Torrent Client IP + 端口路由测试  
+
+https://github.com/user-attachments/assets/7674edbe-c6c9-49e7-986d-037ae96b2638
 
 #### [IPQualityScore](https://www.ipqualityscore.com/ip-reputation-check)
 
@@ -228,11 +254,15 @@ Fingerprint 商业 Device Intelligence 的演示环境，展示服务端 Visitor
 
 **Highlights:** 自有网络信誉和欺诈数据  
 
+https://github.com/user-attachments/assets/e4e20d51-f6ea-4fca-a3bf-3cb869f01fde
+
 #### [Ethical Red](https://www.ethicalred.io/)
 
 网络路径与 VPN 泄漏诊断工具，将 WebRTC、STUN、DNS、IPv6 与 VPN Tunnel Integrity 分开检查。
 
 **Highlights:** STUN + VPN Tunnel Integrity  
+
+https://github.com/user-attachments/assets/b1916c7f-bd0a-425a-bbe6-95c223e859a3
 
 ### 隐私、安全与数字身份
 
@@ -240,7 +270,9 @@ Fingerprint 商业 Device Intelligence 的演示环境，展示服务端 Visitor
 
 从浏览器之外的身份层检查 Credential、Infostealer Logs、OSINT 与 Digital Footprint，用于发现历史身份暴露和可关联痕迹。
 
-**Highlights:** 浏览器之外的身份关联和数字足迹  
+**Highlights:** 浏览器之外的身份关联和数字足迹 
+
+https://github.com/user-attachments/assets/90e6d974-0d32-4e50-8586-9603a78eb14d
 
 #### [Webkay](https://webkay.robinlinus.com/)
 
@@ -248,11 +280,15 @@ Fingerprint 商业 Device Intelligence 的演示环境，展示服务端 Visitor
 
 **Highlights:** Autofill、登录状态、局域网等攻击面  
 
+https://github.com/user-attachments/assets/40ae8570-6192-4e77-80d7-c0bf64704ec7
+
 #### [PrivacyTests.org](https://privacytests.org/)
 
 使用统一自动化测试横向比较不同浏览器默认设置下的隐私与抗追踪能力，而不是检测单个 Profile。
 
 **Highlights:** 统一方法横向比较不同浏览器  
+
+https://github.com/user-attachments/assets/6929770f-13bd-4614-a85f-e146f02de3c6
 
 #### [BrowserAudit](https://browseraudit.com/)
 
@@ -260,17 +296,24 @@ Fingerprint 商业 Device Intelligence 的演示环境，展示服务端 Visitor
 
 **Highlights:** 检查浏览器安全标准实现  
 
+https://github.com/user-attachments/assets/9029c780-f33b-498f-92c4-dc1b936b6691
+
 #### [PrivacyTestLab](https://privacytestlab.com/)
 
 综合浏览器与网络隐私检测平台，特点是公开 Fingerprint Score 使用的 Shannon Entropy、Signal Weight 与评分逻辑。
 
 **Highlights:** 公开 Shannon Entropy 与 Signal Weight  
 
+https://github.com/user-attachments/assets/c08cc3af-470a-42e5-9883-76cc6feec54c
+
 #### [Privacy.net Analyzer](https://privacy.net/analyzer/)
 
 从浏览器指纹延伸到 Autofill Leak 与 User Account Tests，展示浏览器身份数据如何被网页进一步关联。
 
 **Highlights:** Autofill Leak + User Account Tests  
+
+https://github.com/user-attachments/assets/177e93ef-5e6f-4eeb-8c32-aefc39d686f5
+
 
 ## 数据与方法
 
