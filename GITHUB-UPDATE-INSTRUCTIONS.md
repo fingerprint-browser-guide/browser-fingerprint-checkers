@@ -46,3 +46,10 @@ https://web4browser.io/cn/blog/2026%E5%B9%B430%E6%AC%BE%E6%B5%8F%E8%A7%88%E5%99%
 
 README 已改为精简 GitHub Edition，不再复制 WordPress 完整正文。
 WordPress 负责完整网站介绍、截图和详细说明；GitHub 负责目录、状态、数据、来源和更新记录。
+
+## V4 README
+
+当前推荐 README 为 Resource Directory 结构：
+Quick comparison → Tools by category → Data & methodology → Notes → Full article。
+
+不要恢复 30 次重复的“官网 / 完整介绍”链接；工具标题本身即为官网链接。

@@ -12,3 +12,12 @@
 
 - README 改为 GitHub Edition 精简目录，减少与 WordPress 完整正文的文本重复。
 - `data/tools.csv` 新增 `status` 与 `last_verified` 字段。
+
+## V4 Resource Directory
+
+- README 从“精简博客目录”进一步改为 Resource Directory。
+- 删除每个工具重复出现的“官网 / 完整介绍 → Web4 Browser”链接。
+- 工具标题本身直接链接官网。
+- 30 款工具按 6 个功能类别分组。
+- Quick comparison 缩减为 Tool / Category / Best for / Status 四列。
+- Web4 Browser 原文只在顶部和底部各出现一次。
