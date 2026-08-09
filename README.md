@@ -69,11 +69,15 @@ A maintained directory of **30 browser fingerprint, environment consistency, net
 
 **Highlights:** 环境一致性 + JA3/JA4/HTTP2  
 
+https://github.com/user-attachments/assets/cb894aa2-cd98-44d0-ad50-59f5a9228e59
+
 #### [Pixelscan](https://pixelscan.net/)
 
 把浏览器指纹、Proxy、VPN、DNS、WebRTC、IP Reputation 和 Bot 信号集中到同一面板，并提供 Android Checker。
 
 **Highlights:** 多维环境检测 + Android Checker  
+
+https://github.com/user-attachments/assets/d825e8ad-6ab8-4717-8980-270fa9ef2b29
 
 #### [Iphey](https://iphey.com/)
 
@@ -81,11 +85,15 @@ A maintained directory of **30 browser fingerprint, environment consistency, net
 
 **Highlights:** 强调不同信号之间的一致性  
 
+https://github.com/user-attachments/assets/45cb50c2-a9bc-464f-a4d2-e95e45ea1ea7
+
 #### [Whoer](https://whoer.net/)
 
 从匿名性与网络泄漏角度检查 IP、DNS、WebRTC、Proxy、VPN、Timezone、语言和 User-Agent 等环境信息。
 
 **Highlights:** 将多种环境不一致直接转化为风险项  
+
+https://github.com/user-attachments/assets/c0c3c89f-efdd-4800-be65-dd631669047d
 
 #### [Fingerprint-Scan](https://fingerprint-scan.com/)
 
@@ -93,11 +101,15 @@ A maintained directory of **30 browser fingerprint, environment consistency, net
 
 **Highlights:** 将指纹异常直接用于 Bot 风险判断  
 
+https://github.com/user-attachments/assets/cc37f247-36f3-461d-aa83-fd97d32f9bc6
+
 #### [TraceScope](https://tracescope.org/)
 
 浏览器指纹与网络环境一致性诊断工具，强调 Server/JavaScript 交叉验证、Modification Traces 和可解释证据链。
 
 **Highlights:** 修改痕迹、Server/JS 交叉验证、品牌痕迹  
+
+https://github.com/user-attachments/assets/c3f704d8-fc68-49ac-8d37-510ea94c840b
 
 ### 深度浏览器指纹分析
 
@@ -107,17 +119,24 @@ A maintained directory of **30 browser fingerprint, environment consistency, net
 
 **Highlights:** JA4T、HTTP/2、QUIC/HTTP3 等协议层检测  
 
+https://github.com/user-attachments/assets/cc4f0cc0-221a-4679-84d6-790966abdd80
+
 #### [CreepJS](https://abrahamjuliot.github.io/creepjs/)
 
 高级浏览器指纹研究工具，除了高熵信号外还重点检查 Lies、Resistance、Headless、Stealth、Worker 与主线程差异等异常。
 
 **Highlights:** Lies、Resistance、Headless、Stealth  
 
+https://github.com/user-attachments/assets/3589c689-b678-4e15-8cda-5a0e257d1e1a
+
 #### [DeviceInfo.me](https://www.deviceinfo.me/)
 
 提供大量设备、浏览器、硬件与网络原始信息，并包含 True Browser/OS 与 Fingerprinting Resistance 等检测。
 
 **Highlights:** True Browser/OS 与 Fingerprinting Resistance  
+
+
+
 
 #### [WebBrowserTools](https://webbrowsertools.com/)
 
